@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container-fluid" id="homeDiv">
+            <div class="row">
+                <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Overview <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Create Shopping List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Edit Shopping List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Add Items</a>
+                        </li>
+                    </ul>
+                </nav>
+                <main id="shoppingListsDiv" class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                    <div class="row shoppingListsDiv">
+                        <h4>Shopping Lists</h4>
+                    </div>
+                    <div class="row">
+                        <div class="list-group">
+                            <a href="./items.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Grocery List</h5>
+                                <small>24 hours ago</small>
+                                </div>
+                                <p class="mb-1">This shopping list contains your every day grocery items.</p>
+                                <small>Created on: Sunday, September 17, 2017</small>
+                            </a>
+                            <a href="./items.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Reading List</h5>
+                                <small class="text-muted">3 days ago</small>
+                                </div>
+                                <p class="mb-1">This shopping list reading materials such as books and novels.</p>
+                                <small class="text-muted">Created on: Sunday, September 14, 2017</small>
+                            </a>
+                            <a href="./items.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                                <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Electronic List</h5>
+                                <small class="text-muted">One month ago</small>
+                                </div>
+                                <p class="mb-1">This shopping list contains electronic items such as phones and computers.</p>
+                                <small class="text-muted">Created on: Sunday, August 14, 2017.</small>
+                            </a>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

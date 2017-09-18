@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container-fluid" id="registerFormDiv">
+            <div>
+                <form id="loginForm" novalidate>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" required>
+                        <div class="invalid-feedback">
+                            Please provide your first name.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                        <div class="invalid-feedback">
+                            Please provide your last name.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" required>
+                        <div class="invalid-feedback">
+                            Please provide your cell phone number.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid email address.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid password.
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

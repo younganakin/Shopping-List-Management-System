@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container-fluid" id="loginFormDiv">
+            <div>
+                <form id="loginForm" novalidate>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid email address.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid password.
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Log in</button>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="text-center">
+                        <h1 id="registerText">Dont have an account? <br />
+                            Click on the link below to register.
+                        </h1>
+                        <a href="./register.html">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

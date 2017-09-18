@@ -1,0 +1,28 @@
+#loginFormDiv {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+#registerText {
+    font-family: "Open Sans",arial,sans-serif;
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#registerFormDiv {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#homeDiv {
+    padding-top: 50px;
+}
+
+#shoppingListsDiv {
+    padding-left: 150px;
+}
