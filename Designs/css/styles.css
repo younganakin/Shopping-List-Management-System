@@ -1,7 +1,8 @@
 #loginFormDiv {
-    width: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
     padding-top: 100px;
 }
 
